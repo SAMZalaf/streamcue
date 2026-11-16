@@ -1,0 +1,207 @@
+StreamCue Studio — Proprietary License
+All Rights Reserved
+
+Version 1.0 · 16 November 2026
+
+Copyright © 2026 Mohamad Zalaf. All rights reserved.
+
+App: StreamCue Studio · Package: net.zalaf.streamcue · Version: 1.0.0
+Owner and developer: Mohamad Zalaf · MohamadZalaf@outlook.com
+
+--------------------------------------------------------------------------------
+1. SCOPE OF THIS LICENSE
+--------------------------------------------------------------------------------
+
+This project is **NOT open source** and is **not** distributed under MIT, GPL, Apache or any other
+open-source licence. All intellectual-property rights in the **software** remain with the owner alone,
+including, without limitation:
+
+  1.1 Source code: www/app.js · www/pro-codec.js · www/i18n.js · www/style.css · www/index.html
+      www/sw.js · www/app-config.js · www/ad-config.js
+  1.2 Build and verification tooling: build.py · tools/*.py · tests/* · android/* (configured Capacitor project)
+  1.3 The licence and encryption system: code generator, both encryption layers, HMAC signatures,
+      the signed registry, and the activation flow
+  1.4 The application's visual identity: screens, icons, gradients, copy, and the name "StreamCue Studio"
+  1.5 Documentation: DOCS.md · CRYPTO.md · START-HERE.md · this file
+
+The end user is granted a **limited, non-exclusive, non-transferable, personal licence** to run the app
+as provided on their own devices. No ownership is transferred.
+
+--------------------------------------------------------------------------------
+2. WHAT THIS LICENSE DOES NOT COVER (EXPLICIT EXCLUSIONS)
+--------------------------------------------------------------------------------
+
+The owner **claims no ownership** of the following, and this licence does not apply to them:
+
+  2.1 **Sound clips downloaded from public sources.** Every clip fetched from a public hosting service
+      (e.g. myinstants.com) remains the right of its original owner and of whoever uploaded it. The app
+      presents them for entertainment use only: they are not sold, not re-licensed, and no claim is made
+      over them.
+  2.2 **Sounds generated automatically by the app (synth engine).** No exclusive right is claimed over
+      clips produced inside the app by its own synthesis engine, and users may freely use them in their
+      own personal content.
+  2.3 **User recordings.** Any audio the user records with their own microphone belongs to the user alone,
+      stays on their device, and is never uploaded to any server.
+  2.4 **Third-party libraries.** Such as Capacitor (@capacitor/core · android · ios · cli), which are
+      governed by their own licences (MIT) as distributed in node_modules.
+  2.5 **The Zalaf logo and developer name** — a mark belonging to the developer, shown only in the
+      About section.
+  2.6 **The launcher icon and splash screen** as displayed by the system — part of the app's identity
+      under 1.4, not part of the public domain.
+
+If you own the rights to a clip and object to its presence in the app, email MohamadZalaf@outlook.com
+with the clip name or link, and we will remove it **within 72 hours** of verification, without conditions
+and free of charge. (Details: publish/sounds-rights.html)
+
+--------------------------------------------------------------------------------
+3. PROHIBITIONS
+--------------------------------------------------------------------------------
+
+Without prior written permission from the owner, you may not:
+
+  3.1 Copy, modify, merge or redistribute the code in any form.
+  3.2 Sell, rent, charge for access to, or bundle the app into a paid package.
+  3.3 Upload the app to any store or download site under an account other than the owner's.
+  3.4 Re-sign the APK, remove ads, remove the Pro badge, or strip any part of the identity.
+  3.5 Use the name "StreamCue Studio", the Zalaf logo, or any part of the visual identity in another
+      project or in marketing a different product.
+  3.6 Systematically extract the app's structure or secrets (key-generation material, algorithms) for
+      any purpose.
+
+  3.7 **Limitation of this clause:** nothing in this licence restricts what applicable law expressly
+      permits (including non-waivable interoperability rights and statutory fair use), nor the rights of
+      any rights holder in the audio content described in section 2.
+
+--------------------------------------------------------------------------------
+4. WARRANTY DISCLAIMER AND LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+
+The software is provided "AS IS", without warranty of any kind, express or implied, including warranties
+of merchantability, fitness for a particular purpose or non-infringement. The owner is not liable for any
+direct or indirect damages arising from the use of, or inability to use, the software, to the maximum
+extent permitted by law.
+
+The app is provided **free of charge** and funded by advertising. The optional purchase (Pro) grants
+time-limited additional features and is neither a permanent subscription nor an equity interest.
+
+--------------------------------------------------------------------------------
+5. GOVERNING LAW
+--------------------------------------------------------------------------------
+
+This licence is governed by the law applicable at the owner's place of residence, without prejudice to
+mandatory consumer rights in the user's country, nor to the rights of the owners of the audio content
+referred to in section 2.
+
+--------------------------------------------------------------------------------
+6. LANGUAGE
+--------------------------------------------------------------------------------
+
+This English text is the primary and governing version. The Arabic text below is an authorised
+translation provided for convenience; in case of conflict, the English text prevails.
+
+--------------------------------------------------------------------------------
+7. CONTACT
+--------------------------------------------------------------------------------
+
+Mohamad Zalaf · MohamadZalaf@outlook.com · https://www.zalaf.net
+
+================================================================================
+العربية — ترجمة معتمدة للاطّلاع (النص الإنجليزي هو الحاكم)
+================================================================================
+
+StreamCue Studio — ترخيص احتكاري (غير مفتوح المصدر)
+جميع الحقوق محفوظة
+
+الإصدار 1.0 · 16 نوفمبر 2026
+
+حقوق النشر © 2026 Mohamad Zalaf — جميع الحقوق محفوظة.
+
+التطبيق: StreamCue Studio · الحزمة: net.zalaf.streamcue · الإصدار: 1.0.0
+المالك والمطوّر: Mohamad Zalaf · MohamadZalaf@outlook.com
+
+--------------------------------------------------------------------------------
+١. نطاق هذا الترخيص
+--------------------------------------------------------------------------------
+
+هذا المشروع **ليس مفتوح المصدر** ولا يُوزَّع تحت أي ترخيص مفتوح (MIT / GPL / Apache أو غيرها).
+جميع حقوق الملكية الفكرية في **البرنامج** تبقى للمالك وحده، وتشمل على سبيل المثال لا الحصر:
+
+  1.1 الشيفرة المصدرية: www/app.js · www/pro-codec.js · www/i18n.js · www/style.css · www/index.html
+      www/sw.js · www/app-config.js · www/ad-config.js
+  1.2 أدوات البناء والتحقق: build.py · tools/*.py · tests/* · android/* (مشروع Capacitor المُهيّأ)
+  1.3 نظام الترخيص والتشفير: مولّد الأكواد، طبقا التشفير، بصمات HMAC، السجل الموقّع، ومسار التفعيل
+  1.4 الهوية البصرية للتطبيق: الشاشات، الأيقونات، التدرّجات، النصوص، والاسم «StreamCue Studio»
+  1.5 الوثائق: DOCS.md · CRYPTO.md · START-HERE.md · هذا الملف
+
+يُمنح المستخدم النهائي **ترخيص استخدام شخصي محدود وغير حصري وغير قابل للتحويل** لتشغيل التطبيق كما هو
+على أجهزته. هذا الترخيص لا ينقل أي حق ملكية.
+
+--------------------------------------------------------------------------------
+٢. ما لا يشمله هذا الترخيص (استثناءات صريحة)
+--------------------------------------------------------------------------------
+
+المالك **لا يدّعي** ملكية العناصر التالية، ولا يسري عليها هذا الترخيص:
+
+  2.1 **المقاطع الصوتية المحمَّلة من مصادر عامة** — كل مقطع يُنزَّل من خدمة استضافة عامة (مثل
+      myinstants.com) يبقى الحق فيه لصاحبه الأصلي ولمن رفعه. التطبيق يعرضه للاستخدام الترفيهي فقط،
+      ولا يبيعه ولا يعيد ترخيصه ولا يدّعي أي حق عليه.
+  2.2 **الأصوات التي يولّدها التطبيق آلياً (Synth)** — لا يُطالب المالك بأي حق حصري على المقاطع
+      المُصنَّعة داخل التطبيق بمحرّك التوليد الصوتي، ويجوز للمستخدم استخدامها في محتواه الشخصي بحرية.
+  2.3 **تسجيلات المستخدم** — أي صوت يسجّله المستخدم بميكروفونه يملكه المستخدم وحده، ويبقى على جهازه
+      ولا يُرسَل لأي خادم.
+  2.4 **مكتبات الطرف الثالث** — مثل Capacitor، وتخضع لتراخيصها الخاصة (MIT) كما هي في node_modules.
+  2.5 **شعار Zalaf واسم المطوّر** — علامة خاصة بالمطوّر، تظهر في قسم «حول» فقط.
+  2.6 **أيقونة التطبيق وشاشة الإقلاع** كما يعرضها النظام — ضمن الهوية (1.4) وليست ضمن الملكية العامة.
+
+إن كنت مالك حقوق مقطع وترى أن ظهوره في التطبيق لا يوافقك، راسلنا على MohamadZalaf@outlook.com مع اسم
+المقطع أو رابطه، ونزيله خلال **72 ساعة** من التحقق، بلا شروط وبلا مقابل.
+(التفاصيل: publish/sounds-rights.html)
+
+--------------------------------------------------------------------------------
+٣. المحظورات
+--------------------------------------------------------------------------------
+
+دون إذن كتابي مسبق من المالك، يُحظر:
+
+  3.1 نسخ الشيفرة أو تعديلها أو دمجها في منتج آخر أو إعادة توزيعها بأي شكل.
+  3.2 بيع التطبيق أو تأجيره أو تقاضي مقابل للوصول إليه أو تضمينه في حزمة مدفوعة.
+  3.3 رفع التطبيق على أي متجر أو موقع تحميل باسم أو حساب غير حساب المالك.
+  3.4 إعادة توقيع الـAPK أو إزالة الإعلانات أو شارة Pro أو أي جزء من الهوية.
+  3.5 استخدام الاسم «StreamCue Studio» أو شعار Zalaf أو أي جزء من الهوية البصرية في مشروع آخر
+      أو في تسويق منتج مختلف.
+  3.6 الاستخراج المنهجي لبنية التطبيق أو أسراره (مفاتيح التوليد، الخوارزميات) لأي غرض.
+
+  3.7 **حدود هذا البند:** لا شيء في هذا الترخيص يمنع ما يُجيزه القانون الواجب التطبيق صراحةً (مثل بعض
+      أعمال الفكّ للتوافق التي لا يمكن تقييدها قانوناً)، ولا يمنع الاستخدام العادل المقرَّر قانوناً، ولا
+      يمسّ حقوق أصحاب المحتوى الصوتي المذكور في البند ٢.
+
+--------------------------------------------------------------------------------
+٤. إخلاء الضمانات وحدود المسؤولية
+--------------------------------------------------------------------------------
+
+يُقدَّم البرنامج «كما هو» دون أي ضمان صريح أو ضمني، بما في ذلك ضمانات الصلاحية لغرض معيّن أو عدم
+الانتهاك. لا يتحمّل المالك أي مسؤولية عن أي ضرر مباشر أو غير مباشر ينتج عن استخدام البرنامج أو تعذُّر
+استخدامه، إلى الحد الذي يجيزه القانون.
+
+يُقدَّم التطبيق **مجاناً** ويُموَّل بالإعلانات. الشراء الاختياري (Pro) يمنح ميزات إضافية زمنية ولا يُعدّ
+اشتراكاً دائماً ولا حصة في الملكية.
+
+--------------------------------------------------------------------------------
+٥. القانون الواجب التطبيق
+--------------------------------------------------------------------------------
+
+يخضع هذا الترخيص للقانون الواجب التطبيق في محل إقامة المالك، دون المساس بحقوق المستهلك الإلزامية في
+بلد المستخدم، ولا بحقوق أصحاب المحتوى الصوتي المذكور في البند ٢.
+
+--------------------------------------------------------------------------------
+٦. اللغة
+--------------------------------------------------------------------------------
+
+النص الإنجليزي أعلاه هو النص الأصلي والحاكم. هذا النص العربي ترجمة معتمدة للاطّلاع فقط، وعند أي تعارض
+يُعتمد النص الإنجليزي.
+
+--------------------------------------------------------------------------------
+٧. التواصل
+--------------------------------------------------------------------------------
+
+Mohamad Zalaf · MohamadZalaf@outlook.com · https://www.zalaf.net
